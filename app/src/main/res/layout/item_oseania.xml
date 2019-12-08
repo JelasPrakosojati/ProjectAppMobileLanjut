@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="175dp"
+    android:id="@+id/box_linear"
+    android:padding="10dp"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/petaoseania"
+        android:layout_width="158dp"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/negaraoseania"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Australia"
+            android:textSize="30sp"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/kotaoseania"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Canberra"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/waktuoseania"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UTC+10:00"
+            android:paddingLeft="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>

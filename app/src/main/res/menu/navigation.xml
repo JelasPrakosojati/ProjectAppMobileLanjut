@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_asia"
+        android:icon="@drawable/ic_asia"
+        android:title="Asia" />
+
+    <item
+        android:id="@+id/nav_amerika"
+        android:icon="@drawable/ic_amerika"
+        android:title="Amerika" />
+
+    <item
+        android:id="@+id/nav_afrika"
+        android:icon="@drawable/ic_afrika"
+        android:title="Afrika" />
+
+    <item
+        android:id="@+id/nav_eropa"
+        android:icon="@drawable/ic_eropa"
+        android:title="Eropa" />
+
+    <item
+        android:id="@+id/nav_oseania"
+        android:icon="@drawable/ic_oseania"
+        android:title="Oseania" />
+
+</menu>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="175dp"
+    android:id="@+id/box_linear"
+    android:padding="10dp"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/petaamerika"
+        android:layout_width="158dp"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/negaraamerika"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Amerika Serikat"
+            android:textSize="30sp"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/kotaamerika"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Los Angeles"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/waktuamerika"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UTC-08:00"
+            android:paddingLeft="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>
